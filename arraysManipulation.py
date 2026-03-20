@@ -140,4 +140,3 @@ for number in bets:
     if number in drawn:
         hits += 1
 print(hits)
-
