@@ -111,6 +111,7 @@ my_list = [1, 'a', ["lista", 64, [0, 1], False]]
 print(my_list[2])  # outputs: ['lista', 64, [0, 1], False]
 print(my_list[2][2])  # outputs: [0, 1]
 print(my_list[2][2][1])  # outputs: 1
+'board = [[EMPTY for i in range(8)] for j in range(8)]'
 
 # -----------------------------------------------
 
